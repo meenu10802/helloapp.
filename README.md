@@ -46,10 +46,10 @@ This project is a simple Spring Boot REST API application that demonstrates diff
 
 ### UC5 – PUT Request
 
-* Endpoint: `/hello/put/Meenakshi?lastName=S`
+* Endpoint: `/hello/put/Meenakshi?lastName=K`
 * Method: PUT
 * Output:
-  `Hello Meenakshifrom BridgeLabz`
+  `Hello Meenakshi from BridgeLabz`
 
 ---
 
