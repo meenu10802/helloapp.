@@ -13,8 +13,12 @@ public class HelloController {
         return "Hello from BridgeLabz";
     }
     // UC2
-    @GetMapping("/query")
     public String sayHelloQuery(@RequestParam String name) {
+        return "Hello " + name + " from BridgeLabz";
+    }
+    // UC3
+    @GetMapping("/param/{name}")
+    public String sayHelloParam(@PathVariable String name) {
         return "Hello " + name + " from BridgeLabz";
     }
 }
